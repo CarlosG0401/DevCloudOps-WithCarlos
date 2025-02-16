@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Monofett&display=swap" rel="stylesheet">
+    <link href="{% static 'css/home.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="{% static 'img/v1_37.png' %}" alt="logo">
+        </div>
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Contact</a>
+        <a href="#">Brands</a>
+        <a href="#">Material</a>
+        <a href="#">Login</a>
+    </div>
+
+    <div class="lines-container">
+        <img class="lines-img" src="{% static 'img/v1_4.png' %}" alt="lineas">
+        <img class="lines-img duplicate" src="{% static 'img/v1_4.png' %}" alt="lineas">
+        <img class="lines-img mirrored" src="{% static 'img/v1_4.png' %}" alt="lineas">
+        <img class="lines-img duplicated-mirrored" src="{% static 'img/v1_4.png' %}" alt="lineas">
+        <img class="lines-img duplicated-mirrored2" src="{% static 'img/v1_4.png' %}" alt="lineas">
+    </div>
+
+    <div class="footer-placeholder">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>SÍGUEME</p>
+                <img src="{% static 'img/v1_48.png' %}" alt="Linkedin">
+                <img src="{% static 'img/v1_51.png' %}" alt="Instagram">
+            </div>
+
+            <div class="footer-links">
+                <p>Home</p>
+                <p>Contact</p>
+                <p>About Me</p>
+                <p>Material</p>
+                <p>Brands</p>
+            </div>
+
+            <div class="footer-right">
+                <p class="copyright">COPYRIGHT © 2025 CARLOS GALINDO</p>
+                <div class="flags-container">
+                    <img src="{% static 'img/v1_63.png' %}" alt="Venezuela" class="flag">
+                    <img src="{% static 'img/v1_60.png' %}" alt="Chile" class="flag">
+                </div>
+            </div>
+
+            <div class="footer-image">
+                <img src="{% static 'img/v1_54.png' %}" alt="Imagen">
+                <p class="profile-name">Carlos Galindo</p>
+                <p class="profile-title">Solution Architect | Presales Engineer</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+
