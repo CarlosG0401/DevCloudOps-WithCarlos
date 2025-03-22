@@ -307,10 +307,12 @@ body{
 .logo-huawei img {
     width: 60px;
     height: auto;
+    display: flex;
     opacity: 0.1;
     transition: transform 0.3s;
     color: white;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
 }
 
 .logo-docker {
@@ -745,7 +747,475 @@ body{
     transition: transform 0.3s;
     color: white;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
-    margin-top: 1.7%;
-    margin-left: 20%;
+    margin-top: 1.7vh;
+    margin-left: 35vh;
+    z-index: 5;
+}
+
+.logo-css-liner2 img {
+    width: 50px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2.8vh;
+    margin-left: 45vh;
+    z-index: 5;
+}
+
+.logo-code-liner2 img {
+    width: 65px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 3.8vh;
+    margin-left: 55vh;
+    z-index: 5;
+}
+
+.logo-html5-liner2 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 65vh;
+    z-index: 5;
+}
+
+.logo-huawei-liner2 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 1.5vh;
+    margin-left: 75vh;
+    z-index: 5;
+}
+
+.logo-python-liner2-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 3vh;
+    margin-left: 83.4vh;
+    z-index: 5;
+}
+
+.logo-cloud-liner2-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 1.5vh;
+    margin-left: 93.4vh;
+    z-index: 5;
+}
+
+.logo-docker-liner2-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 1.5vh;
+    margin-left: 102vh;
+    z-index: 5;
+}
+
+.logo-django-liner2-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 1.5vh;
+    margin-left: 110vh;
+    z-index: 5;
+}
+
+.logo-vscode-liner2-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 3.6vh;
+    margin-left: 120vh;
+    z-index: 5;
+}
+
+.logo-html5-liner2-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 129vh;
+    z-index: 5;
+}
+
+.logo-css-liner2-duplicate img {
+    width: 50px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2.8vh;
+    margin-left: 138vh;
+    z-index: 5;
+}
+
+.logo-code-liner2-duplicate img {
+    width: 65px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 3.1vh;
+    margin-left: 147vh;
+    z-index: 5;
+}
+
+.logo-huawei2-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 1.5vh;
+    margin-left: 157vh;
+    z-index: 5;
+}
+
+.logo-python-liner2-duplicate-2 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 3vh;
+    margin-left: 167vh;
+    z-index: 5;
+}
+
+.logo-docker-liner2-duplicate-2 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 1.5vh;
+    margin-left: 177vh;
+    z-index: 5;
+}
+
+.logo-cloud-liner2-duplicate-2 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: grid;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2.3vh;
+    margin-left: 187vh;
+    z-index: 5;
+}
+
+.logo-cloud-liner3 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: -148vh;
+    margin-left: 5vh;
+    z-index: 5;
+}
+
+.logo-docker-liner3 img{
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 15vh;
+    z-index: 5;
+}
+
+.logo-python-liner3 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 23vh;
+    z-index: 5;
+}
+
+.logo-html5-liner3 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 31vh;
+    z-index: 5;
+}
+
+.logo-css-liner3 img {
+    width: 50px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2.8vh;
+    margin-left: 41vh;
+    z-index: 5;
+}
+
+.logo-django-liner3 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 50vh;
+    z-index: 5;
+}
+
+.logo-huawei-liner3 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 59vh;
+    z-index: 5;
+}
+
+.logo-vscode-liner3 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 67vh;
+    z-index: 5;
+}
+
+.logo-code-liner3 img {
+    width: 65px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 77vh;
+    z-index: 5;
+}
+
+.logo-python-liner3-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 87vh;
+    z-index: 5;
+}
+
+.logo-django-liner3-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 95vh;
+    z-index: 5;
+}
+
+.logo-html5-liner3-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    position: absolute;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 2vh;
+    margin-left: 104vh;
+    z-index: 5;
+}
+
+.logo-cloud-liner3-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    position: absolute;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 9vh;
+    margin-left: 113vh;
+    z-index: 5;
+}
+
+.logo-code-liner3-duplicate img {
+    width: 65px;
+    height: auto;
+    opacity: 0.1;
+    position: absolute;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 19vh;
+    margin-left: 123vh;
+    z-index: 5;
+}
+
+.logo-css-liner3-duplicate img {
+    width: 50px;
+    height: auto;
+    opacity: 0.1;
+    position: absolute;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 29vh;
+    margin-left: 134vh;
+    z-index: 5;
+}
+
+.logo-docker-liner3-duplicate img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    position: absolute;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 37vh;
+    margin-left: 144vh;
+    z-index: 5;
+}
+
+.logo-python-liner3-duplicate2 img{
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    position: absolute;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 47vh;
+    margin-left: 154vh;
+    z-index: 5;
+}
+
+.logo-vscode-liner3-duplicate2 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    position: absolute;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 57vh;
+    margin-left: 164vh;
+    z-index: 5;
+}
+
+.logo-cloud-liner3-duplicate2 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    position: absolute;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 67vh;
+    margin-left: 176vh;
+    z-index: 5;
+}
+
+.logo-huawei-liner3-duplicate2 img {
+    width: 60px;
+    height: auto;
+    opacity: 0.1;
+    position: absolute;
+    transition: transform 0.3s;
+    color: white;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    margin-top: 77vh;
+    margin-left: 186vh;
     z-index: 5;
 }
