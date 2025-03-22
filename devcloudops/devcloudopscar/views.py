@@ -5,3 +5,6 @@ def home(request):
 
 def login(request):
     return render(request, 'login.html')
+
+def cargando_view(request):
+    return render(request, 'cargando.html')
