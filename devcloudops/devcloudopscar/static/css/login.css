@@ -177,7 +177,7 @@ body{
     color: #90ff50;
     width: 300px;
     font-family: 'Orbitron', sans-serif;
-    animation: slideInBounce 1.2s ease-out;
+    animation: slideInBounce 1.2s ease-out, neonPulse 2s ease-in-out 1.3s infinite;
 }
 
 .login-container h2 {
@@ -188,6 +188,25 @@ body{
     color: #90ff50;
     text-shadow: 0 0 5px #000000, 0 0 10px #15e931;
     letter-spacing: 2px;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 40%;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #90ff50;
 }
 
 .input-group {
@@ -249,6 +268,7 @@ body{
     cursor: pointer;
     transition: 0.3s;
     font-family: 'Orbitron', sans-serif;
+    margin-bottom: 30px;
 }
 
 .login-btn:hover {
@@ -273,3 +293,91 @@ body{
         transform: translateX(-50%) scale(1);
     }
 }
+
+@keyframes neonPulse {
+    0% {
+        box-shadow: 0 0 20px rgba(144, 255, 80, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 35px rgba(144, 255, 80, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(144, 255, 80, 0.3);
+    }
+}
+
+.form-registro {
+    animation: slideInLeftBounce 1s ease-out, neonPulse 2s ease-in-out 1.3s infinite;
+    font-family: 'Orbitron', sans-serif;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(144, 255, 80, 0.3);
+    color: #90ff50;
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #90ff50;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.register-btn:hover {
+    background-color: #90ff50;
+    color: black;
+    box-shadow: 0 0 10px #90ff50;
+}
+
+@keyframes slideOutRight {
+    0% {
+        opacity: 1;
+        transform: translateX(-50%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(200%);
+    }
+}
+
+@keyframes slideInLeftBounce {
+    0% {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+    60% {
+        transform: translateX(-50%) scale(1.1);
+        opacity: 1;
+    }
+    80% {
+        transform: translateX(-50%) scale(0.95);
+    }
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+.slide-out-right {
+    animation: slideOutRight 0.8s forwards;
+}
+
+.slide-in-left-bounce {
+    animation: slideInLeftBounce 1s ease-out;
+}
+
+
